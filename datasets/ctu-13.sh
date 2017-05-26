@@ -3,5 +3,5 @@
 
 wget https://mcfp.felk.cvut.cz/publicDatasets/CTU-13-Dataset/CTU-13-Dataset.tar.bz2
 tar xvjf CTU-13-Dataset.tar.bz2
-
+echo "Convert PCAP to CSV: tshark -r test.pcap -T fields -e eth.src -e eth.dst -e"
 # "An empirical comparison of botnet detection methods" Sebastian Garcia, Martin Grill, Honza Stiborek and Alejandro Zunino. Computers and Security Journal, Elsevier. 2014. Vol 45, pp 100-123. http://dx.doi.org/10.1016/j.cose.2014.05.011
